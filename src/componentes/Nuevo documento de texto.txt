@@ -1,0 +1,1 @@
+<small>{late?"late ✔️​​ ":"nola ❌​​"}</small>

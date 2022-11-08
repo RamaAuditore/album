@@ -1,18 +1,20 @@
-import React from 'react'
 
-;
+import React from 'react';
+
+
 
 function Card({nombre,imagesource,fechanacimiento,clubes}){
 
   return (
     <div className="card">
       <img src={imagesource} alt=""/>
-      <div className="card-body">
+      <div className="card-body"><div className="nom">
         <h1 className="card-title">{nombre}</h1>
-      
-  <p>{fechanacimiento}</p>
-  <p>{clubes}</p>
-  <small>late</small>
+        
+      </div>
+  <p className="naci">{fechanacimiento}</p>
+  <p className="clu">{clubes}</p>
+  
       </div>
     </div>
   )

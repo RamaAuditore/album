@@ -37,4 +37,5 @@ p{display: block;
     letter-spacing: 0px;
     box-shadow:0 0 32px rgb(122, 29, 50),0 0 10px
     rgb(122, 29, 50),0 0 20px rgb(122, 29, 50);
+    border-color: aqua;
 }

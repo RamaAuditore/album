@@ -19,7 +19,7 @@
     padding: 0.25rem;
   
   }
- h1{
+ .card-title{
     letter-spacing: 2px;
     font-family: 'Bungee Inline', cursive;
     background-color: aqua;
@@ -39,3 +39,37 @@ p{display: block;
     rgb(122, 29, 50),0 0 20px rgb(122, 29, 50);
     border-color: aqua;
 }
+
+
+
+
+
+
+
+@media (max-width: 1199px) {
+  .card-title {
+    font-size: calc(1.30em + 1vw);
+    font-family: 'Bungee Inline', cursive;
+    background-color: aqua;
+    border-radius: 200% 50% 70%;}
+  
+  .p{
+    font-size: 1rem ;
+    background-color: brown;
+  
+  }
+ }
+
+ @media (max-width: 991px) {
+  .card-title {
+    font-size: 3rem;
+    font-family: 'Bungee Inline', cursive;
+    background-color: aqua;
+    border-radius: 200% 50% 70%;}
+    p{
+      font-size: 3rem;
+      
+    
+    }
+  
+   }

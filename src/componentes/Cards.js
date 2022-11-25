@@ -27,8 +27,8 @@ import lio   from './lio.png';
 
 const cards =[
     { id:1,
-     nombre: 'Emiliano Martinez',
-     fechanacimiento:"02-09-1992",
+     nombre: 'Emiliano martinez',
+     fechanacimiento:"1987",
      clubes:"Aston Villa F.C",
      image:emilianomartinez,
      }
@@ -46,91 +46,91 @@ const cards =[
         image:marcosacuña,
      },{id:4,
         nombre:'Nahuel Molina',
-        fechanacimiento:"06-04-1998",
+        fechanacimiento:"28-10-1991",
         clubes:"sevilla fc",
         image:nahuelmolina,
 
      },{ id:5,
         nombre: 'Nicolas Otamendi',
-        fechanacimiento:"12-02-1988",
+        fechanacimiento:"1987",
         clubes:"Aston Villa F.C",
         image:nicolasotamendi,
         }
        ,{
          id:6,
            nombre:'German Pezzela',
-           fechanacimiento:"27-06-1991",
+           fechanacimiento:"16-10-1986",
            clubes:"Carp",
            image:germanpezzella,        
         },{
            id:7,
            nombre:'Cristian Romero',
-           fechanacimiento:"27-04-1998",
+           fechanacimiento:"28-10-1991",
            clubes:"sevilla fc",
            image:cristianromero,
         },{id:8,
            nombre:'Rodrigo De Paul',
-           fechanacimiento:"24-05-1994",
+           fechanacimiento:"28-10-1991",
            clubes:"sevilla fc",
            image:rodrigodepaul,
    
         },{
          id:9,
          nombre:'Angel Di Maria',
-         fechanacimiento:"14-02-1988",
+         fechanacimiento:"28-10-1991",
          clubes:"sevilla fc",
          image:angeldi,
       },{id:10,
          nombre:'Giovani Lo Celso',
-         fechanacimiento:"09-05-1996",
+         fechanacimiento:"28-10-1991",
          clubes:"sevilla fc",
          image:giova,
  
       },{id:11,
          nombre:'Leandro Paredes',
-         fechanacimiento:"29-06-1994",
+         fechanacimiento:"28-10-1991",
          clubes:"Sevilla fc",
          image:leanpare,
  
       },{id:12,
          nombre:'Guido Rodriguez',
-         fechanacimiento:"12-05-1994",
+         fechanacimiento:"28-10-1991",
          clubes:"sevilla fc",
          image:guidorodriguez,
  
       },{
        id:13,
        nombre:'Julian Alvarez',
-       fechanacimiento:"31-01-2000",
+       fechanacimiento:"28-10-1991",
        clubes:"sevilla fc",
        image:julial,
     },{id:14,
        nombre:'Joaquin Correa',
-       fechanacimiento:"13-08-1994",
+       fechanacimiento:"28-10-1991",
        clubes:"sevilla fc",
        image:joaco,
 
     },{id:15,
        nombre:'Alejandro Gomez',
-       fechanacimiento:"15-02-1988",
+       fechanacimiento:"28-10-1991",
        clubes:"sevilla fc",
        image:alego,
 
     },{
       id:16,
       nombre:'Nicolas Gonzales',
-      fechanacimiento:"06-05-1998",
+      fechanacimiento:"28-10-1991",
       clubes:"sevilla fc",
       image:nicogos,
    },{id:17,
       nombre:'Lautaro Martinez',
-      fechanacimiento:"22-08-1997",
+      fechanacimiento:"28-10-1991",
       clubes:"sevilla fc",
       image:lauty,
 
    },{id:18,
       nombre:'Lionel Messi',
-      fechanacimiento:"24-05-1987",
+      fechanacimiento:"28-10-1991",
       clubes:"sevilla fc",
       image:lio,
 
@@ -158,4 +158,4 @@ function Cards() {
   )
   }
 
-export default Cards;
+export default Cards

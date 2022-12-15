@@ -18,7 +18,8 @@ import  alego  from './alego.png';
 import nicogos   from './nicogos.png';
 import lauty   from './lauty.png';
 import lio   from './lio.png';
-
+import gol from './gol.svg';
+import cantidad from './Card';
 
 
 
@@ -31,13 +32,15 @@ const cards =[
      fechanacimiento:"1987",
      clubes:"Aston Villa F.C",
      image:emilianomartinez,
+     
      }
     ,{
       id:2,
         nombre:'Franco Armani',
         fechanacimiento:"16-10-1986",
         clubes:"Carp",
-        image:francoarmani,        
+        image:francoarmani
+                
      },{
         id:3,
         nombre:'Marcos Acuña',
@@ -49,6 +52,8 @@ const cards =[
         fechanacimiento:"28-10-1991",
         clubes:"sevilla fc",
         image:nahuelmolina,
+        gol: gol,
+        cantidad:"1"
 
      },{ id:5,
         nombre: 'Nicolas Otamendi',
@@ -104,6 +109,9 @@ const cards =[
        fechanacimiento:"28-10-1991",
        clubes:"sevilla fc",
        image:julial,
+       
+      gol: gol,
+      cantidad:"4"
     },{id:14,
        nombre:'Joaquin Correa',
        fechanacimiento:"28-10-1991",
@@ -127,13 +135,16 @@ const cards =[
       fechanacimiento:"28-10-1991",
       clubes:"sevilla fc",
       image:lauty,
+     
 
    },{id:18,
       nombre:'Lionel Messi',
       fechanacimiento:"28-10-1991",
       clubes:"sevilla fc",
       image:lio,
-
+      gol: gol,
+      cantidad:"5"
+      
    }
 ]
 
@@ -145,8 +156,9 @@ function Cards() {
           {
             cards.map(card=> (
                 <div className="col-lg-4" key={card.id}>
-               <Card nombre={card.nombre} 
-                     imagesource={card.image} 
+               <Card nombre={card.nombre}gol={card.gol} 
+                     imagesource={card.image}
+                     cantidad={card.cantidad}
                      fechanacimiento={card.fechanacimiento} 
                      clubes={card.clubes}/>
                        

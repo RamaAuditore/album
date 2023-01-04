@@ -1,13 +1,12 @@
 import React from 'react';
 
 
-function Card({nombre,imagesource,fechanacimiento,clubes,gol,cantidad}){
-
+function Card({nombre,imagesource,fechanacimiento,clubes,gol,cantidad,estrellas}){
   return (
     <div className="card">
       
       <img src={imagesource} alt=""/>
-      
+      <img src={estrellas} alt=""/>
       <div className="card-body">
         <div className="nom">
         <h1 className="card-title">{nombre}</h1>

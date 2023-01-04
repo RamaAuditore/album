@@ -1,10 +1,13 @@
 import React from 'react'
 import Cards from './componentes/Cards'
 import './App.css';
+import Particles from './componentes/Particles';
+
 
 function App() {
   return (
-  <div className="App"><Cards/> </div>
+  <div className="App">
+    <Particles/><Cards/> </div>
   )
   }
 

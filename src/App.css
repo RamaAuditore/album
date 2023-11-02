@@ -105,6 +105,11 @@ p.clu {display: block;
     background-color: brown;
   
   }
+  .App{
+    background-color: rgb(7, 54, 98);
+    
+    height: 1090rem;
+}
  }
 
  @media (max-width: 994px) {

@@ -36,7 +36,7 @@ import estre from './estrellas.png'
 
 
 const cards =[{id:0,
-              nombre:'Copa del mundo Qatar 2022',
+              nombre:'Copa Qatar 2022',
               estrellas:estre,
               image:trofeo},
     { id:1,
